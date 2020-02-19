@@ -1,0 +1,61 @@
+body{
+    /* background-color: #C9EDDC; */
+    background-image: url('./squid.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+form{
+    
+    border: 1px solid #4C3B4D;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #82968C;
+}
+
+
+.inputContainer{
+    margin-top: 30px !important;
+    margin: 10px;
+}
+
+.inputUser{
+    border: 2px solid #4C3B4D;
+    width: 200px;
+    height: 30px; 
+    color: black;  
+    text-align: center;
+    font-size: 15px;
+    border-radius: 24px;
+    outline: none;
+    transition: 250ms;
+}
+
+.inputUser:focus{
+    width: 250px;
+    border-color: chartreuse;
+    font-weight: bolder;
+}
+
+.submitLog{
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    transition: 250ms;
+    border: 2px solid #4C3B4D;
+    border-radius: 24px;
+    font-weight: 200;
+    font-size: medium;
+    cursor: pointer;
+    outline: none;
+}
+
+.submitLog:hover{
+    width: 250px;
+    /* height: 40px; */
+    border-color: black;
+    background-color: chartreuse;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
